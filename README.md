@@ -1,47 +1,40 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# My Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Feel free to check out my personal corner of the internet!
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+## About This Site
 
-# Features
+I came across [Dillion Verma's portfolio template](https://github.com/dillionverma/portfolio) and liked how clean and minimal it was. I decided to tailor it with inspiration from [Magic Portfolio's](https://demo.magic-portfolio.com) aesthetic.
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+I also got inspired by [ladvace's bento portfolio](https://sparkly-speculoos-0c9197.netlify.app) - the travel section has a 3D globe, which gave the idea to make it interactive and include it in mine!
 
-# Getting Started Locally
+## Tech Stack
 
-1. Clone this repository to your local machine:
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+- Magic UI
+- Framer Motion
+- Bun
+- Vercel
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+## Running Locally
+```bash
+# Install dependencies
+bun install
 
-2. Move to the cloned directory
+# Run dev server
+bun dev
 
-   ```bash
-   cd portfolio
-   ```
+# Build for production
+bun run build
+```
 
-3. Install dependencies:
+## License
 
-   ```bash
-   pnpm install
-   ```
+MIT - feel free to use this as inspiration for your own site!
 
-4. Start the local Server:
+---
 
-   ```bash
-   pnpm dev
-   ```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
-
-# License
-
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
