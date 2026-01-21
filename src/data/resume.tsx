@@ -44,8 +44,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "sequeira.ethan@gmail.com",
-    tel: "+14169972493",
+    email: "contact@ethanseq.com",
     social: {
       GitHub: {
         name: "GitHub",
