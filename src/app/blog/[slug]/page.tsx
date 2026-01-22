@@ -115,7 +115,7 @@ export default async function Blog({
   }).replace(/</g, "\\u003c");
 
   return (
-    <TracingBeam>
+    <TracingBeam key={slug}>
     <section id="blog">
       <script
         type="application/ld+json"
