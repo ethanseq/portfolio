@@ -7,6 +7,7 @@ import { MDXContent } from "@content-collections/mdx/react";
 import { mdxComponents } from "@/mdx-components";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 
 function getSortedPosts() {
   return [...allPosts].sort((a, b) => {
@@ -114,6 +115,7 @@ export default async function Blog({
   }).replace(/</g, "\\u003c");
 
   return (
+    <TracingBeam>
     <section id="blog">
       <script
         type="application/ld+json"
@@ -189,5 +191,6 @@ export default async function Blog({
         </div>
       </nav>
     </section>
+    </TracingBeam>
   );
 }
