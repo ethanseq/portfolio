@@ -51,7 +51,7 @@ export default function WorkSection() {
                       target="_blank" 
                       rel="noopener noreferrer"
                       onClick={(e) => e.stopPropagation()}
-                      className="text-muted-foreground hover:text-foreground transition-colors"
+                      className="text-muted-foreground hover:text-foreground transition-colors opacity-0 group-hover:opacity-100"
                     >
                       <ArrowUpRight className="h-3.5 w-3.5" />
                     </a>
