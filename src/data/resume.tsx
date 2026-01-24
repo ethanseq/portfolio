@@ -18,10 +18,14 @@ export const DATA = {
   url: "https://ethanseq.com",
   location: "Toronto, ON",
   locationLink: "https://www.google.com/maps/place/toronto",
-  description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+  description:`Software engineer focused on building systems that perform at scale and make a meaningful impact. 
+               Outside of work, you'll find me making music, exploring new places, or working on projects.`,
+  summary:`I work in automotive manufacturing, where I 
+          lead cross-functional teams to develop applications for performance and scale. I love 
+          collaborating with people from different backgrounds and disciplines. Always rewarding 
+          to solve hard problems and accomplish meaningful things together. These days I wear a lot of hats: engineering, 
+          product management, managing external partnerships and employees, financial analysis, production optimization,
+          legal coordination, and presenting technical strategy to executives and investors.`,
   avatarUrl: "/me.png",
   skills: [
     { name: "React", icon: ReactLight },
@@ -133,7 +137,7 @@ export const DATA = {
       href: "https://www.vielight.com",
       badges: [],
       location: "Toronto, ON / Remote",
-      title: "Software Engineer - Capstone",
+      title: "Capstone",
       logoUrl: "/vielight.svg",
       start: "Sep 2023",
       end: "Apr 2024",
