@@ -1,16 +1,21 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon, MusicIcon, PlaneIcon} from "lucide-react";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
-import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
-import { Typescript } from "@/components/ui/svgs/typescript";
-import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Java } from "@/components/ui/svgs/java";
-import { Csharp } from "@/components/ui/svgs/csharp";
+import { Cpp } from "@/components/ui/svgs/cpp";
+import { MongoDB } from "@/components/ui/svgs/mongodb";
+import { Redis } from "@/components/ui/svgs/redis";
+import { FastAPI } from "@/components/ui/svgs/fastapi";
+import { Django } from "@/components/ui/svgs/django";
+import { RabbitMQ } from "@/components/ui/svgs/rabbitmq";
+import { Linux } from "@/components/ui/svgs/linux";
+import { Git } from "@/components/ui/svgs/git";
+import { AWS } from "@/components/ui/svgs/aws";
+import { Grafana } from "@/components/ui/svgs/grafana";
+import { OpenTelemetry } from "@/components/ui/svgs/opentelemetry";
+
 
 export const DATA = {
   name: "Ethan Sequeira",
@@ -20,25 +25,29 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/toronto",
   description:`Software engineer focused on building systems that perform at scale and make a meaningful impact. 
                Outside of work, you'll find me making music, exploring new places, or working on projects.`,
-  summary:`I work in automotive manufacturing, where I 
-          lead cross-functional teams to develop applications for performance and scale. I love 
+  summary:`I 
+          work with cross-functional teams to develop applications for performance and scale in automotive manufacturing. I love 
           collaborating with people from different backgrounds and disciplines. Always rewarding 
           to solve hard problems and accomplish meaningful things together. These days I wear a lot of hats: engineering, 
           product management, managing external partnerships and employees, financial analysis, production optimization,
           legal coordination, and presenting technical strategy to executives and investors.`,
   avatarUrl: "/me.png",
   skills: [
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Typescript", icon: Typescript },
-    { name: "Node.js", icon: Nodejs },
     { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Docker", icon: Docker },
-    { name: "Kubernetes", icon: Kubernetes },
+    { name: "C++", icon: Cpp },
     { name: "Java", icon: Java },
-    { name: "C++", icon: Csharp },
+    { name: "Django", icon: Django },
+    { name: "FastAPI", icon: FastAPI },
+    { name: "Postgres", icon: Postgresql },
+    { name: "MongoDB", icon: MongoDB },
+    { name: "Redis", icon: Redis },
+    { name: "AWS", icon: AWS },
+    { name: "Docker", icon: Docker },
+    { name: "Linux", icon: Linux },
+    { name: "OpenTelemetry", icon: OpenTelemetry },
+    { name: "Grafana", icon: Grafana },
+    { name: "RabbitMQ", icon: RabbitMQ },
+    { name: "Git", icon: Git },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
