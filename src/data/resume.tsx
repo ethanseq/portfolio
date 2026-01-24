@@ -87,7 +87,7 @@ export const DATA = {
       badges: [],
       location: "Vaughan, ON",
       title: "Engineering Supervisor",
-      logoUrl: "/atom.png",
+      logoUrl: "/atom2.svg",
       start: "Sep 2025",
       end: "Present",
       description:
@@ -111,7 +111,7 @@ export const DATA = {
       badges: [],
       location: "Vaughan, ON",
       title: "Lead Engineer",
-      logoUrl: "/atom.png",
+      logoUrl: "/atom2.svg",
       start: "Sep 2024",
       end: "Aug 2025",
       description:
@@ -123,7 +123,7 @@ export const DATA = {
       badges: [],
       location: "Vaughan, ON / Remote",
       title: "Software Engineer",
-      logoUrl: "/martinrea.jpg",
+      logoUrl: "/martinrea.svg",
       start: "Apr 2023",
       end: "Aug 2024",
       description:
@@ -159,7 +159,7 @@ export const DATA = {
       badges: [],
       location: "Vaughan, ON",
       title: "Software Engineering Intern",
-      logoUrl: "/martinrea.jpg",
+      logoUrl: "/martinrea.svg",
       start: "May 2022",
       end: "August 2022",
       description:
@@ -171,7 +171,7 @@ export const DATA = {
       badges: [],
       location: "Vaughan, ON",
       title: "Software Engineering Intern",
-      logoUrl: "/martinrea.jpg",
+      logoUrl: "/martinrea.svg",
       start: "May 2021",
       end: "August 2021",
       description:
@@ -195,7 +195,7 @@ export const DATA = {
       school: "McMaster University",
       href: "https://www.eng.mcmaster.ca/ibiomed/",
       degree: "B. Eng. Software and Biomedical Engineering (Co-op)",
-      logoUrl: "/mcmaster.png",
+      logoUrl: "/mcmaster.svg",
       start: "2019",
       end: "2024",
     },
@@ -203,7 +203,7 @@ export const DATA = {
       school: "Cawthra Park Secondary School",
       href: "https://cawthrapark.peelschools.org/music",
       degree: "High School Diploma, Regional Arts Program (Piano)",
-      logoUrl: "/cawthra.png",
+      logoUrl: "/cawthra.svg",
       start: "2015",
       end: "2019",
     },
