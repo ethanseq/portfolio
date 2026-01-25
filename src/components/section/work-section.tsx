@@ -49,9 +49,9 @@ export default function WorkSection() {
                     <a 
                       href={work.href} 
                       target="_blank" 
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      className="text-muted-foreground hover:text-foreground transition-colors opacity-0 group-hover:opacity-100"
+                      rel="noopener noreferrer" 
+                      onClick={(e) => e.stopPropagation()} 
+                      className="text-muted-foreground hover:text-foreground transition-colors opacity-0 group-hover:opacity-100 group-data-[state=open]:-rotate-180"
                     >
                       <ArrowUpRight className="h-3.5 w-3.5" />
                     </a>
