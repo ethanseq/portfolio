@@ -91,7 +91,7 @@ export const DATA = {
       start: "Sep 2025",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Leading a team to develop and ship a distributed resistance spot welding optimization system. Created full observability infrastructure using OpenTelemetry and LGTM stack. Currently driving product management and business strategy, with significant North American plant-wide deployment planned for 2026.",
     },
     {
       company: "Airtime Platform",
@@ -102,8 +102,11 @@ export const DATA = {
       logoUrl: "/airtime.png",
       start: "May 2025",
       end: "Present",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+      description: (
+        <>
+          Working with <a href="https://joefurf.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Joe Furfaro</a> and <a href="https://www.linkedin.com/in/maurice-el-helou-b4811519a/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Maurice el Helou</a> to build a high-performance training platform. Starting with <a href="https://www.airtimevolleyball.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Airtime Volleyball</a> for Q2 2026! Built with Python/Django backend, React/Next.js frontend, and deployed with AWS.
+        </>
+      ),
     },
     {
       company: "Martinrea",
@@ -115,7 +118,7 @@ export const DATA = {
       start: "Sep 2024",
       end: "Aug 2025",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Developed a high-performance event-driven C++ application for processing real-time weld data and running optimization jobs. Architected a distributed system with an intelligent job broker that lets one edge device service multiple manufacturing lines instead of needing separate devices for each line, while collaborating with weld engineers on optimization algorithms and managing the full-stack monitoring app.",
     },
     {
       company: "Martinrea",
@@ -127,7 +130,7 @@ export const DATA = {
       start: "Apr 2023",
       end: "Aug 2024",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Worked and provided mentorship on developing vision solutions for manufacturing. Started a Python library that abstracts complex computer vision workflows and speeds up development time. Created a configurable data augmentation framework for training ML models and implemented quality inspection systems using both ML and classical CV techniques in Python and C++.",
     },
     {
       company: "ARCO Lab",
@@ -138,8 +141,11 @@ export const DATA = {
       logoUrl: "/arco.png",
       start: "Aug 2023",
       end: "Jun 2024",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+      description: (
+        <>
+          Worked with <a href="https://mattgiamou.ca" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Dr. Matthew Giamou</a> on research for optimal beacon placement for range-aided localization. <a href="https://arxiv.org/abs/2405.11550" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Published a paper</a> with provable performance guarantees. Built a 2D/3D localization simulator in Python for experimentation and developed optimization frameworks for minimizing localization error in GPS and autonomous navigation. Really grateful for Dr. Giamou's guidance; learned a ton.
+        </>
+      ),
     },
     {
       company: "Vielight",
@@ -151,7 +157,7 @@ export const DATA = {
       start: "Sep 2023",
       end: "Apr 2024",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Built a real-time AWS cloud app to stream and process 64-channel EEG data, handling everything from hardware acquisition to automated signal analysis. Created a full-stack web app (Node.js/Express backend, Chart.js frontend) that visualizes brain wave data, generates topoplots, and dynamically adjusts photobiomodulation device parameters.",
     },
     {
       company: "Martinrea",
@@ -163,7 +169,7 @@ export const DATA = {
       start: "May 2022",
       end: "August 2022",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Developed custom computer vision solutions for various manufacturing business units using Python and OpenCV. Presented to board of directors, corporate partners, and investors. Rewrote AGV image processing algorithms in C++ and CUDA for 25x performance boost through parallel computing, plus improved SLAM stability and added save/load functionality.",
     },
     {
       company: "Martinrea",
@@ -175,7 +181,7 @@ export const DATA = {
       start: "May 2021",
       end: "August 2021",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Worked on an AGV for factory inventory management that was decently cheaper than commercial options while improving production line safety and efficiency. Optimized computer vision algorithms using Python, C++, Java, and OpenCV, achieving 5x faster object detection and avoidance, plus implemented motion profiling, camera calibration, and ArUco marker positioning.",
     },
     {
       company: "TD Bank",
@@ -187,7 +193,7 @@ export const DATA = {
       start: "Nov 2020",
       end: "Feb 2021",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Part-time role during university that gave me my first real exposure to retail banking. Supported clients with transactions and money management while learning how to recommend products that fit their needs.",
     },
   ],
   education: [
