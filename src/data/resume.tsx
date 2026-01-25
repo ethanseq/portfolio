@@ -214,7 +214,22 @@ export const DATA = {
       end: "2019",
     },
   ],
-  projects: [
+  projects: [] as Array<{
+    title: string;
+    href: string;
+    dates: string;
+    active: boolean;
+    description: string;
+    technologies: string[];
+    links: Array<{
+      type: string;
+      href: string;
+      icon: React.ReactNode;
+    }>;
+    image: string;
+    video: string;
+  }>,
+  // projects: [
     // {
     //   title: "Chat Collect",
     //   href: "https://chatcollect.com",
@@ -337,5 +352,5 @@ export const DATA = {
     //   video:
     //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     // },
-  ],
+  // ],
 } as const;
