@@ -9,6 +9,8 @@ import ContactSection from "@/components/section/contact-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
+import { FileText } from "lucide-react";
+
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -57,7 +59,13 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <div className="flex items-center justify-between">
+              <h2 className="text-xl font-bold">Work Experience</h2>
+              <a href="/ethan_sequeira_resume.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 p-2 text-muted-foreground hover:text-foreground transition rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800" aria-label="View Full Resume">
+                <span className="text-sm">Resume</span>
+                <FileText className="w-5 h-5" />
+              </a>
+            </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
             <WorkSection />
