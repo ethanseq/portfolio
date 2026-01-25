@@ -1,34 +1,38 @@
+"use client"; 
 import Link from "next/link";
-import { FlickeringGrid } from "@/components/magicui/flickering-grid";
+import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { DATA } from "@/data/resume";
 
 export default function ContactSection() {
   return (
-    <div className="border rounded-xl p-10 relative">
-      <div className="absolute -top-4 border bg-primary z-10 rounded-xl px-4 py-1 left-1/2 -translate-x-1/2">
-        <span className="text-background text-sm font-medium">Contact</span>
-      </div>
-      <div className="absolute inset-0 top-0 left-0 right-0 h-1/2 rounded-xl overflow-hidden">
-        <FlickeringGrid
-          className="h-full w-full"
-          squareSize={2}
-          gridGap={2}
-          style={{
-            maskImage: "linear-gradient(to bottom, black, transparent)",
-            WebkitMaskImage: "linear-gradient(to bottom, black, transparent)",
-          }}
-        />
-      </div>
-      <div className="relative flex flex-col items-center gap-4 text-center">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-          Get in Touch
-        </h2>
-        <p className="mx-auto max-w-lg text-muted-foreground text-balance">
-          Want to chat? Just shoot me a dm{" "}
-            with a direct question on twitter
-          and I&apos;ll respond whenever I can. I will ignore all
-          soliciting.
-        </p>
+    <div className="relative h-full rounded-2xl border p-2 md:rounded-3xl md:p-3">
+      <GlowingEffect
+        blur={0}
+        borderWidth={3}
+        spread={80}
+        glow={true}
+        disabled={false}
+        proximity={64}
+        inactiveZone={0.01}
+      />
+      <div className="border-0.75 relative flex h-full flex-col justify-between gap-6 overflow-hidden rounded-xl p-6 md:p-6 dark:shadow-[0px_0px_27px_0px_#2D2D2D]">
+        <div className="relative flex flex-1 flex-col justify-between gap-3">
+          <div className="space-y-3">
+            <h3 className="-tracking-4 pt-0.5 font-sans text-xl/[1.375rem] font-semibold text-balance text-black md:text-2xl/[1.875rem] dark:text-white">
+              Get in Touch
+            </h3>
+            <h2 className="font-sans text-sm/[1.125rem] text-black md:text-base/[1.375rem] dark:text-neutral-400">
+              Want to reach out? Shoot me an email at{" "}
+              <Link
+                href="mailto:contact@ethanseq.com"
+                className="text-blue-500 hover:underline"
+              >
+                contact@ethanseq.com
+              </Link>
+              {" "}and I&apos;ll get back to you!
+            </h2>
+          </div>
+        </div>
       </div>
     </div>
   );
