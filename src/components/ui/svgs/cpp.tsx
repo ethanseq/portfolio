@@ -1,6 +1,6 @@
 import type { SVGProps } from "react";
 
-const Csharp = (props: SVGProps<SVGSVGElement>) => (
+const Cpp = (props: SVGProps<SVGSVGElement>) => (
   <svg
     {...props}
     preserveAspectRatio="xMidYMid"
@@ -25,4 +25,4 @@ const Csharp = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export { Csharp };
+export { Cpp };
