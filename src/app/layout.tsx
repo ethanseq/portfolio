@@ -88,13 +88,13 @@ export default function RootLayout({
                   className="hidden dark:block"
                 />
                 <ShootingStars
-                  minDelay={2000}
-                  maxDelay={4000}
+                  minDelay={5000}
+                  maxDelay={10000}
                   starColor="#9E00FF"
                   trailColor="#2EB9DF"
-                  starHeight={1}
+                  starHeight={2}
                   starWidth={10}
-                  minSpeed={0.5}
+                  minSpeed={1}
                   maxSpeed={3}
                 />
               </div>

@@ -25,22 +25,15 @@ interface ShootingStarsProps {
 }
 
 const getRandomStartPoint = () => {
-  const side = Math.floor(Math.random() * 4);
+  // Start from random position along the top
   const offset = Math.random() * window.innerWidth;
-
-  switch (side) {
-    case 0:
-      return { x: offset, y: 0, angle: 45 };
-    case 1:
-      return { x: window.innerWidth, y: offset, angle: 135 };
-    case 2:
-      return { x: offset, y: window.innerHeight, angle: 225 };
-    case 3:
-      return { x: 0, y: offset, angle: 315 };
-    default:
-      return { x: 0, y: 0, angle: 45 };
-  }
+  // Angle between 45-135 degrees to go downward (90 is straight down)
+  // Adjust range for more vertical (closer to 90) or more diagonal spread
+  const angle = Math.random() * 90 + 45; // 45-135 degrees range
+  
+  return { x: offset, y: 0, angle };
 };
+
 export const ShootingStars: React.FC<ShootingStarsProps> = ({
   minSpeed = 10,
   maxSpeed = 30,
