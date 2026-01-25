@@ -128,6 +128,18 @@ export default function Page() {
             ))}
           </div>
         </div>
+        <a 
+          href="https://www.credly.com/badges/aeeee97c-ea99-4856-a6c4-68b1e5f89f0b" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block hover:scale-105 transition-transform mt-4"
+        >
+          <img 
+            src="/nvidia.svg"
+            alt="AWS Certified Developer - Associate"
+            className="w-24 h-24"
+          />
+        </a>
       </section>
       <section id="projects">
         <BlurFade delay={BLUR_FADE_DELAY * 11}>
