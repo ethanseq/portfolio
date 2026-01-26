@@ -70,7 +70,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
       } else if (screenWidth < 1024) {
         setDimensions({ width: 600, height: 600 });
       } else {
-        setDimensions({ width: 800, height: 800 });
+        setDimensions({ width: 1400, height: 1400 });
       }
     };
   
@@ -83,42 +83,11 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
   const markerData = locations.map((loc) => ({
     lat: loc.coordinates[0],
     lng: loc.coordinates[1],
-    size: 0.15,
-    color: getColorForType(loc.type, isDark),
+    size: 0.8,
+    color: '#f59e0b',
     label: loc.name,
     location: loc,
   }));
-
-  // Theme-aware colors for markers
-  function getColorForType(type: string, isDarkMode: boolean) {
-    if (isDarkMode) {
-      // Bright colors for dark mode
-      return {
-        vacation: '#10b981',    // Bright green
-        work: '#3b82f6',        // Bright blue
-        living: '#f59e0b',      // Bright amber
-        performance: '#ec4899', // Bright pink
-      }[type] || '#6366f1';
-    } else {
-      // Darker, saturated colors for light mode
-      return {
-        vacation: '#059669',    // Dark green
-        work: '#2563eb',        // Dark blue
-        living: '#d97706',      // Dark amber
-        performance: '#db2777', // Dark pink
-      }[type] || '#4f46e5';
-    }
-  }
-
-  function getTypeLabel(type: string) {
-    const labels = {
-      vacation: 'Vacation',
-      work: 'Work',
-      living: 'Lived Here',
-      performance: 'Performance',
-    };
-    return labels[type as keyof typeof labels] || type;
-  }
 
   const handleMarkerClick = (marker: any) => {
     setSelectedLocation(marker.location);
@@ -149,50 +118,44 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
   }
 
   return (
-    <section id="travel" className="w-full py-12 relative overflow-hidden">
+    <section id="travel" className="w-full py-12 relative">
       {/* Background gradient - theme aware */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background/50 to-background -z-10" />
       
-      <div className="container mx-auto px-4">
+      <div className="mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Travel & Experiences</h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Exploring the world, one city at a time. Click any marker to see more.
+            Feel free to check out some of the cities I&apos;ve visited! Click on a marker to see more!
           </p>
         </div>
 
         {/* Stats Cards */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 max-w-4xl mx-auto">
-          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
+        <div className="flex flex-wrap justify-center gap-4 mb-8 md:-mb-12 lg:-mb-48 max-w-3xl mx-auto">
+          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm w-32">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">{stats.countriesVisited}</div>
               <div className="text-sm text-muted-foreground">Countries</div>
             </div>
           </div>
-          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
+          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm w-32">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">{stats.citiesVisited}</div>
-              <div className="text-sm text-muted-foreground">Cities</div>
+              <div className="text-sm text-muted-foreground">Major Cities</div>
             </div>
           </div>
-          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
+          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm w-32">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary">{stats.continents}</div>
               <div className="text-sm text-muted-foreground">Continents</div>
             </div>
           </div>
-          <div className="p-6 rounded-lg border bg-card text-card-foreground shadow-sm">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary">{locations.length}</div>
-              <div className="text-sm text-muted-foreground">Adventures</div>
-            </div>
-          </div>
         </div>
 
         {/* Globe Container - no border, centered */}
-        <div className="relative w-full max-w-4xl mx-auto mb-8">
-          <div className="w-full flex items-center justify-center overflow-hidden">
+        <div className="relative w-full mx-auto mb-8">
+          <div className="w-full flex items-center justify-center overflow-y-clip -my-16 md:-my-24">
             <Globe
               ref={globeRef}
               width={dimensions.width}
@@ -211,12 +174,20 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
               labelsData={markerData}
               labelLat={(d: any) => d.lat}
               labelLng={(d: any) => d.lng}
-              labelText={(d: any) => d.label}
+              labelText={(d: any) => ''}
               labelSize={(d: any) => d.size}
               labelDotRadius={(d: any) => 0.4}
               labelColor={(d: any) => d.color}
               labelResolution={2}
               onLabelClick={handleMarkerClick}
+              
+              ringsData={markerData}
+              ringLat={(d: any) => d.lat}
+              ringLng={(d: any) => d.lng}
+              ringColor={() => '#fbbf2480'}
+              ringMaxRadius={1}
+              ringPropagationSpeed={3}
+              ringRepeatPeriod={1000}
               
               // Animation
               animateIn={true}
@@ -228,24 +199,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
             />
           </div>
 
-          {/* Legend - theme aware colors */}
           <div className="mt-6 flex flex-wrap gap-3 justify-center">
-            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold border-green-500/50 bg-green-500/10">
-              <span className="w-2 h-2 rounded-full bg-green-500 mr-2" />
-              Vacation
-            </div>
-            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold border-blue-500/50 bg-blue-500/10">
-              <span className="w-2 h-2 rounded-full bg-blue-500 mr-2" />
-              Work
-            </div>
-            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold border-amber-500/50 bg-amber-500/10">
-              <span className="w-2 h-2 rounded-full bg-amber-500 mr-2" />
-              Lived Here
-            </div>
-            <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold border-pink-500/50 bg-pink-500/10">
-              <span className="w-2 h-2 rounded-full bg-pink-500 mr-2" />
-              Performance
-            </div>
           </div>
         </div>
 
@@ -281,15 +235,6 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
                   <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold bg-secondary">
                     <Calendar className="w-3 h-3 mr-1" />
                     {selectedLocation.visitDate}
-                  </div>
-                  <div 
-                    className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold"
-                    style={{ 
-                      borderColor: getColorForType(selectedLocation.type, isDark),
-                      backgroundColor: `${getColorForType(selectedLocation.type, isDark)}20`
-                    }}
-                  >
-                    {getTypeLabel(selectedLocation.type)}
                   </div>
                 </div>
 
@@ -339,20 +284,6 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
                   </div>
                 )}
               </div>
-            </div>
-          </div>
-        )}
-
-        {/* Favorite Places */}
-        {stats.favoritePlaces.length > 0 && (
-          <div className="mt-12 text-center">
-            <h3 className="text-xl font-semibold mb-4">Favorite Places</h3>
-            <div className="flex flex-wrap gap-2 justify-center">
-              {stats.favoritePlaces.map((place, idx) => (
-                <div key={idx} className="inline-flex items-center rounded-md border px-4 py-2 text-base font-semibold border-transparent">
-                  ⭐ {place}
-                </div>
-              ))}
             </div>
           </div>
         )}
