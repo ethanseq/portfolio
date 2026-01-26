@@ -25,7 +25,7 @@ interface GlobeTravelProps {
 }
 
 export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
-  const globeRef = useRef<any>();
+  const globeRef = useRef<any>(null);;
   const { theme, systemTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
@@ -48,7 +48,6 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
       const controls = globeRef.current.controls();
       if (controls) {
         controls.enableZoom = false;
-        // Optional: you can also configure other controls here
         // controls.enablePan = false; // Disable panning if needed
         // controls.autoRotate = true; // Enable auto-rotation
         // controls.autoRotateSpeed = 0.5; // Set rotation speed
