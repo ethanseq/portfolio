@@ -47,7 +47,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
       // controls() is a METHOD that returns the OrbitControls instance
       const controls = globeRef.current.controls();
       if (controls) {
-        controls.enableZoom = false;
+        // controls.enableZoom = false;
         // controls.enablePan = false; // Disable panning if needed
         // controls.autoRotate = true; // Enable auto-rotation
         // controls.autoRotateSpeed = 0.5; // Set rotation speed
@@ -175,7 +175,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
               labelLng={(d: any) => d.lng}
               labelText={(d: any) => ''}
               labelSize={(d: any) => d.size}
-              labelDotRadius={(d: any) => 0.4}
+              labelDotRadius={(d: any) => 0.2}
               labelColor={(d: any) => d.color}
               labelResolution={2}
               onLabelClick={handleMarkerClick}
