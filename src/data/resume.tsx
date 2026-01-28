@@ -23,8 +23,7 @@ export const DATA = {
   url: "https://ethanseq.com",
   location: "Toronto, ON",
   locationLink: "https://www.google.com/maps/place/toronto",
-  description:`Software engineer focused on building systems that perform at scale and make a meaningful impact. 
-               Outside of work, you'll find me making music, exploring new places, or working on projects.`,
+  description:`Software engineer focused on building systems that perform at scale and make a meaningful impact.`,
   summary:`I 
           work with cross-functional teams to develop applications for performance and scale in automotive manufacturing. I love 
           collaborating with people from different backgrounds and disciplines. Always rewarding 

@@ -83,8 +83,10 @@ export default function RootLayout({
                 }}
               >
                 <StarsBackground
-                  starDensity={0.003}
+                  starDensity={0.015}
                   allStarsTwinkle={true}
+                  minTwinkleSpeed = {0.25}
+                  maxTwinkleSpeed = {1}
                   className="hidden dark:block"
                 />
                 <ShootingStars
@@ -94,8 +96,8 @@ export default function RootLayout({
                   trailColor="#2EB9DF"
                   starHeight={2}
                   starWidth={10}
-                  minSpeed={1}
-                  maxSpeed={3}
+                  minSpeed={0.5}
+                  maxSpeed={1}
                 />
               </div>
             </div>
