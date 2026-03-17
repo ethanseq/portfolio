@@ -85,8 +85,8 @@ export default function RootLayout({
                 <StarsBackground
                   starDensity={0.015}
                   allStarsTwinkle={true}
-                  minTwinkleSpeed = {0.25}
-                  maxTwinkleSpeed = {1}
+                  minTwinkleSpeed={0.25}
+                  maxTwinkleSpeed={1}
                   className="hidden dark:block"
                 />
                 <ShootingStars
