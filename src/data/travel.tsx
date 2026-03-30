@@ -328,7 +328,8 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona3.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona4.jpeg',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona5.jpeg'
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona5.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona6.jpeg'
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -374,7 +375,8 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla3.jpeg',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla4.jpeg'
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla4.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla5.jpeg'
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
