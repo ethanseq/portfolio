@@ -235,8 +235,8 @@ export const TRAVEL_DATA = {
       visitDate: 'July 2007 | August 2025',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_7485.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_2989.JPG',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/halifax1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/halifax2.jpeg',
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -279,9 +279,9 @@ export const TRAVEL_DATA = {
       visitDate: 'June 2007',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3133.jpeg',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3132.jpeg',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3139.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/newyork1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/newyork2.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/newyork3.jpeg',
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -324,11 +324,11 @@ export const TRAVEL_DATA = {
       visitDate: 'August 2025',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3027.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3099.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3127.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_7655.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3190.JPG'
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona2.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona3.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona4.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona5.jpeg'
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -341,8 +341,8 @@ export const TRAVEL_DATA = {
       visitDate: 'September 2025',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3372.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_7820.JPG',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/madrid1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/madrid2.jpeg',
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -355,10 +355,10 @@ export const TRAVEL_DATA = {
       visitDate: 'September 2025',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_1144.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3262.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3265.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3286.JPG'
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia2.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia3.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia4.jpeg'
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -371,10 +371,10 @@ export const TRAVEL_DATA = {
       visitDate: 'September 2025',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3860.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_2901.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_2910.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_2940.JPG'
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla2.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla3.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla4.jpeg'
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -387,13 +387,13 @@ export const TRAVEL_DATA = {
       visitDate: 'September 2025',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3516.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3529.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_7993.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3562.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_1804.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3621.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3772.JPG'
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada2.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada3.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada4.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada5.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada6.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada7.jpeg'
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -406,8 +406,8 @@ export const TRAVEL_DATA = {
       visitDate: 'September 2025',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_2801.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_3805.JPG',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/cadiz1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/cadiz2.jpeg',
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -450,9 +450,9 @@ export const TRAVEL_DATA = {
       visitDate: 'June 2024',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_0563.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_4073.JPG',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_7916.JPG',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/seoul1.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/seoul2.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/seoul3.jpeg',
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
@@ -531,7 +531,7 @@ export const TRAVEL_DATA = {
       visitDate: 'July 2024',
       highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
       photos: [
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/IMG_5528.JPG',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai6.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai3.jpeg',
