@@ -581,6 +581,8 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul5.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul6.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul7.jpeg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul8.jpeg',
       ],
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
