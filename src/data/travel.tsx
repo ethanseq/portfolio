@@ -67,7 +67,7 @@ export const TRAVEL_DATA = {
       coordinates: [34.8, 135.5],
       flag: '🇯🇵',
       visitDate: 'June 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Fushimi Inari', 'Dotonbori', 'Nishiki Market', 'Arashiyama'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/kansai1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/kansai2.jpeg',
@@ -82,7 +82,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/kansai11.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/kansai12.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Went with friends and had a great time. Kyoto and Osaka are totally different but both worth it. Arashiyama and Dotonbori are must-sees.",
     },
     {
       id: 'vancouver',
@@ -91,13 +91,13 @@ export const TRAVEL_DATA = {
       coordinates: [49.2827, -123.1207],
       flag: '🇨🇦',
       visitDate: 'April 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Stanley Park', 'Mountains & Ocean', 'Canucks Arena', 'Kitsilano'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/vancouver1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/vancouver2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/vancouver3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Visited some friends out there. Stunning city, mountains right behind you, Stanley Park is huge and Kitsilano is a great hangout spot.",
     },
     {
       id: 'edmonton',
@@ -106,13 +106,13 @@ export const TRAVEL_DATA = {
       coordinates: [53.5462, -113.4937],
       flag: '🇨🇦',
       visitDate: 'June 2024 | July 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['West Edmonton Mall', 'Fort Edmonton Park', 'Banff'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Visiting family. West Edmonton Mall is genuinely massive, Fort Edmonton Park is a fun afternoon, and Banff is close enough to make a day of it.",
     },
     {
       id: 'austin',
@@ -121,7 +121,7 @@ export const TRAVEL_DATA = {
       coordinates: [30.2672, -97.7431],
       flag: '🇺🇸',
       visitDate: 'November 2023',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['6th Street', 'BBQ', 'Zilker Park', 'Giant Stores'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/austin1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/austin2.jpeg',
@@ -130,7 +130,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/austin5.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/austin6.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Feels nothing like the rest of Texas. Great BBQ, fun bars on 6th Street, and some of the biggest stores I've ever walked into.",
     },
     {
       id: 'sanfrancisco',
@@ -139,7 +139,7 @@ export const TRAVEL_DATA = {
       coordinates: [37.7749, -122.4194],
       flag: '🇺🇸',
       visitDate: 'March 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Golden Gate Bridge', 'Mission District', 'Fisherman\'s Wharf'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco2.jpeg',
@@ -147,7 +147,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco5.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really cool city. Great neighborhoods, and the nature around it is hard to beat. Golden Gate Park is way bigger than you'd expect.",
     },
     {
       id: 'chicago',
