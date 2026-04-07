@@ -961,8 +961,8 @@ export const TRAVEL_DATA = {
       story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
     },
     {
-      id: 'san-antonio',
-      name: 'San Antonio',
+      id: 'san-jose',
+      name: 'San Jose',
       country: 'USA',
       coordinates: [37.3387, -121.8853],
       flag: '🇺🇸',
