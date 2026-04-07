@@ -257,13 +257,13 @@ export const TRAVEL_DATA = {
       coordinates: [46.3188, -63.1461],
       flag: '🇨🇦',
       visitDate: 'July 2018',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Red Sand Beaches', 'Anne of Green Gables', 'Lobster', 'Cycling Trails'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really beautiful island. The red sand beaches are unlike anything else and the seafood is great. Worth the trip.",
     },
     {
       id: 'houston',
@@ -272,7 +272,7 @@ export const TRAVEL_DATA = {
       coordinates: [29.7601, -95.3701],
       flag: '🇺🇸',
       visitDate: 'November 2023',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Space Center', 'Food Scene', 'Live Music', 'Astros'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/houston1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/houston2.jpeg',
@@ -280,7 +280,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/houston4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/houston5.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Happened to be there when the Astros won. Great energy in the city, good food and music scene.",
     },
     {
       id: 'new-york-city',
@@ -289,13 +289,13 @@ export const TRAVEL_DATA = {
       coordinates: [40.7128, -74.0060],
       flag: '🇺🇸',
       visitDate: 'June 2007',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Central Park', 'Lower East Side', 'Times Square'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/newyork1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/newyork2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/newyork3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "One of the most vibrant cities ever.",
     },
     {
       id: 'boston',
@@ -304,13 +304,13 @@ export const TRAVEL_DATA = {
       coordinates: [42.3555, -75.0565],
       flag: '🇺🇸',
       visitDate: 'A few times',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Harvard', 'Downtown', 'Suburbs'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "A few visits over the years. Compact and walkable with a great downtown and nice suburbs around it.",
     },
     {
       id: 'orlando',
@@ -319,13 +319,13 @@ export const TRAVEL_DATA = {
       coordinates: [28.5384, -81.3789],
       flag: '🇺🇸',
       visitDate: 'February 2009',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Disney World', 'Theme Parks'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Went as a kid.",
     },
     {
       id: 'barcelona',
@@ -334,7 +334,7 @@ export const TRAVEL_DATA = {
       coordinates: [41.3874, 2.1686],
       flag: '🇪🇸',
       visitDate: 'August 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Sagrada Familia', 'Gothic Quarter', 'Gracia', 'Beach'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona2.jpeg',
@@ -343,7 +343,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona5.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/barcelona6.jpeg'
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "One of the best cities I've been to. Architecture everywhere you look, great food, and the beach right there. Could easily go back.",
     },
     {
       id: 'madrid',
