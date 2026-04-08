@@ -481,14 +481,14 @@ export const TRAVEL_DATA = {
       coordinates: [35.8447, 129.2070],
       flag: '🇰🇷',
       visitDate: 'June 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Bulguksa Temple', 'Royal Tumuli', 'Cheomseongdae', 'Ancient Capital'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/gyeongju1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/gyeongju2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/gyeongju3.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/gyeongju4.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really cool place. Learned a lot about the Silla Kingdom and it felt genuinely authentic, not touristy at all.",
     },
     {
       id: 'busan',
@@ -497,13 +497,13 @@ export const TRAVEL_DATA = {
       coordinates: [35.1731, 129.0714],
       flag: '🇰🇷',
       visitDate: 'June 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Haeundae Beach', 'Gamcheon Village', 'Seafood'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/busan1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/busan2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/busan3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really liked Busan. Great beach and the seafood markets are something else.",
     },
     {
       id: 'hong-kong',
@@ -512,14 +512,14 @@ export const TRAVEL_DATA = {
       coordinates: [22.3193, 114.1694],
       flag: '🇭🇰',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Victoria Peak', 'Night Markets', 'Dim Sum', 'Skyline'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hongkong1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hongkong2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hongkong3.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hongkong4.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Incredible skyline and really fun to explore. Chaotic but unbelievable energy and the food is great.",
     },
     {
       id: 'macau',
@@ -528,7 +528,7 @@ export const TRAVEL_DATA = {
       coordinates: [22.1987, 113.5439],
       flag: '🇲🇴',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Historic Centre', 'Ruins of St. Paul\'s', 'Casinos', 'Portuguese Quarter'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/macau1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/macau2.jpeg',
@@ -538,7 +538,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/macau7.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/macau8.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Interesting mix of Portuguese history and Vegas-style excess. Really worth the visit.",
     },
     {
       id: 'dubai',
@@ -547,7 +547,7 @@ export const TRAVEL_DATA = {
       coordinates: [25.2048, 55.2708],
       flag: '🇦🇪',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Burj Khalifa', 'Dubai Mall', 'Desert Safari', 'Marina'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai6.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai1.jpeg',
@@ -556,7 +556,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubai5.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Over the top in every way, which is kind of the point. The desert safari was a highlight and the skyline at night is wild.",
     },
     {
       id: 'abu-dhabi',
@@ -565,14 +565,14 @@ export const TRAVEL_DATA = {
       coordinates: [24.4539, 54.3773],
       flag: '🇦🇪',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Sheikh Zayed Mosque', 'Yas Island', 'Corniche', 'Louvre Abu Dhabi'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/abudhabi1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/abudhabi2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/abudhabi3.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/abudhabi4.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Calmer than Dubai but just as impressive in its own way. The Sheikh Zayed Mosque is honestly one of the most beautiful buildings I've seen.",
     },
     {
       id: 'istanbul',
@@ -581,7 +581,7 @@ export const TRAVEL_DATA = {
       coordinates: [41.0082, 28.9784],
       flag: '🇹🇷',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Hagia Sophia', 'Grand Bazaar', 'Bosphorus', 'Galata'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul2.jpeg',
@@ -592,7 +592,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul7.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/istanbul8.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "One of the coolest cities I've been to. Packed with history everywhere you look and the adana kebab is unreal.",
     },
     {
       id: 'athens',
@@ -601,7 +601,7 @@ export const TRAVEL_DATA = {
       coordinates: [37.9838, 23.7275],
       flag: '🇬🇷',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Acropolis', 'Greek Food'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/athens1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/athens2.jpeg',
@@ -609,7 +609,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/athens4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/athens5.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Only had a few hours so just got the Acropolis and some souvlaki in. Worth it.",
     },
     {
       id: 'corfu',
@@ -618,7 +618,7 @@ export const TRAVEL_DATA = {
       coordinates: [39.6243, 19.9217],
       flag: '🇬🇷',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Old Town', 'Beaches', 'Boat Trips', 'Olive Groves'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/corfu1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/corfu2.jpeg',
@@ -630,7 +630,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/corfu8.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/corfu9.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Beautiful island. The old town is really charming and the beaches are stunning. A great place to just slow down.",
     },
     {
       id: 'mumbai',
@@ -639,7 +639,7 @@ export const TRAVEL_DATA = {
       coordinates: [18.9582, 72.8321],
       flag: '🇮🇳',
       visitDate: 'A few times',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Gateway of India', 'Marine Drive', 'Dharavi'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/mumbai1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/mumbai2.jpeg',
@@ -649,7 +649,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/mumbai6.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/mumbai7.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Chaotic and incredible at the same time. The energy of the city is unlike anything else.",
     },
     {
       id: 'goa',
