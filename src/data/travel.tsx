@@ -352,7 +352,7 @@ export const TRAVEL_DATA = {
       coordinates: [40.4167, -3.7033],
       flag: '🇪🇸',
       visitDate: 'September 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Retiro Park', 'Santiago Bernabeu', 'Plaza Mayor', 'Gran Via'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/madrid1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/madrid2.jpeg',
@@ -361,7 +361,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/madrid5.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/madrid6.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Retiro Park was probably my favourite park of the whole trip. Gran Via and Plaza Mayor are fun to just walk around, and obviously had to see the Bernabeu.",
     },
     {
       id: 'valencia',
@@ -370,14 +370,14 @@ export const TRAVEL_DATA = {
       coordinates: [39.4738, -0.3756],
       flag: '🇪🇸',
       visitDate: 'September 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['City of Arts & Sciences', 'Paella', 'Beach', 'Old Town'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia3.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/valencia4.jpeg'
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really surprised by Valencia. The bike trails are amazing and it just feels like a city people actually live well in.",
     },
     {
       id: 'sevilla',
@@ -386,7 +386,7 @@ export const TRAVEL_DATA = {
       coordinates: [37.3891, -5.9845],
       flag: '🇪🇸',
       visitDate: 'September 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Alcazar', 'Cathedral', 'Flamenco', 'Old Town'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla2.jpeg',
@@ -394,7 +394,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sevilla5.jpeg'
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Genuinely one of the prettiest cities I've been to. The old town especially.",
     },
     {
       id: 'granada',
@@ -403,7 +403,7 @@ export const TRAVEL_DATA = {
       coordinates: [37.1825, -3.6012],
       flag: '🇪🇸',
       visitDate: 'September 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Alhambra', 'Albaicin', 'Tapas Culture', 'Sierra Nevada'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada2.jpeg',
@@ -413,7 +413,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada6.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/granada7.jpeg'
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "The Alhambra is one of the most impressive things I've ever seen. Granada is a smaller city but it punches way above its weight.",
     },
     {
       id: 'cadiz',
@@ -422,12 +422,12 @@ export const TRAVEL_DATA = {
       coordinates: [36.5210, -6.2805],
       flag: '🇪🇸',
       visitDate: 'September 2025',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Old Town', 'Atlantic Coast', 'Seafood'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/cadiz1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/cadiz2.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Quick stop but a good one. Really old city right on the Atlantic with great seafood and a totally different feel from the rest of Spain.",
     },
     {
       id: 'lisbon',
@@ -436,13 +436,13 @@ export const TRAVEL_DATA = {
       coordinates: [38.7223, -9.1393],
       flag: '🇵🇹',
       visitDate: 'February 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Alfama', 'Trams', 'Belem', 'Sintra'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/lisbon1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/lisbon2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/lisbon3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really liked it. The hills, the trams, the tiles — it all just works. Did a day trip to Sintra which was awesome.",
     },
     {
       id: 'porto',
@@ -451,13 +451,13 @@ export const TRAVEL_DATA = {
       coordinates: [41.1579, -8.6291],
       flag: '🇵🇹',
       visitDate: 'February 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Ribeira', 'Port Wine', 'Douro Valley'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/porto1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/porto2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/porto3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Loved it here. Super walkable, good wine obviously, and went out to the Douro Valley which was gorgeous.",
     },
     {
       id: 'seoul',
@@ -466,13 +466,13 @@ export const TRAVEL_DATA = {
       coordinates: [37.5652, 126.9774],
       flag: '🇰🇷',
       visitDate: 'June 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Gyeongbokgung', 'DMZ', 'Han River', 'Hongdae'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/seoul1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/seoul2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/seoul3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Honestly such a cool city. Went to the DMZ which was pretty surreal, Gyeongbokgung is beautiful, and Hongdae is a really fun area.",
     },
     {
       id: 'gyeongju',
