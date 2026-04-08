@@ -829,7 +829,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/budapest8.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/budapest9.jpeg',
       ],
-      story: "One of the best cities in Europe. The ruin bars are great and the views from Fisherman's Bastion are worth the climb.",
+      story: "One of the best cities in Europe. The views from Fisherman's Bastion are worth the climb.",
     },
     {
       id: 'vienna',
@@ -869,7 +869,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/krems5.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/krems6.jpeg',
       ],
-      story: "Did a bike ride through the vineyards and tiny villages along the Danube. One of the best days of the trip.",
+      story: "Did a bike ride through the vineyards and tiny villages out of a fairytale along the Danube. One of the best days of the trip.",
     },
     {
       id: 'prague',
@@ -891,7 +891,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/prague9.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/prague10.jpeg',
       ],
-      story: "Genuinely one of the most beautiful old towns I've seen. Charles Bridge is iconic for a reason.",
+      story: "Genuinely one of the most beautiful old towns I've seen.",
     },
     {
       id: 'stockholm',
@@ -943,7 +943,7 @@ export const TRAVEL_DATA = {
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/buffalo1.jpeg',
       ],
-      story: "Usually here for Niagara, a game, or a tailgate. Good wings too.",
+      story: "Usually here for Niagara, a game/tailgate, or the mall. Good wings too.",
     },
     {
       id: 'san-antonio',
@@ -1018,7 +1018,7 @@ export const TRAVEL_DATA = {
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "Was here as a kid. Remember Busch Gardens more than anything.",
+      story: "Was here as a kid. Don't remember doing much.",
     },
   ] as Location[],
 
