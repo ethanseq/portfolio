@@ -838,7 +838,7 @@ export const TRAVEL_DATA = {
       coordinates: [48.2081, 16.3713],
       flag: '🇦🇹',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Schönbrunn Palace', 'Belvedere', 'St. Stephen\'s Cathedral', 'City Centre'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/vienna1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/vienna2.jpeg',
@@ -851,7 +851,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/vienna9.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/vienna10.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really impressive city. The palaces are massive and the whole centre feels grand.",
     },
     {
       id: 'krems',
@@ -860,7 +860,7 @@ export const TRAVEL_DATA = {
       coordinates: [48.4112, 15.6071],
       flag: '🇦🇹',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Wachau Valley', 'Old Town', 'Wine', 'Danube'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/krems1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/krems2.jpeg',
@@ -869,7 +869,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/krems5.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/krems6.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Did a bike ride through the vineyards and tiny villages along the Danube. One of the best days of the trip.",
     },
     {
       id: 'prague',
@@ -878,7 +878,7 @@ export const TRAVEL_DATA = {
       coordinates: [50.0755, 14.4378],
       flag: '🇨🇿',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Old Town Square', 'Charles Bridge', 'Prague Castle', 'Beer'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/prague1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/prague2.jpeg',
@@ -891,7 +891,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/prague9.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/prague10.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Genuinely one of the most beautiful old towns I've seen. Charles Bridge is iconic for a reason.",
     },
     {
       id: 'stockholm',
@@ -900,7 +900,7 @@ export const TRAVEL_DATA = {
       coordinates: [59.3327, 18.0656],
       flag: '🇸🇪',
       visitDate: 'August 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Gamla Stan', 'Archipelago', 'Waterfront'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/stockholm1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/stockholm2.jpeg',
@@ -908,7 +908,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/stockholm4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/stockholm5.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Long stopover but glad I got out. Really cool city built across islands.",
     },
     {
       id: 'hamilton',
@@ -917,7 +917,7 @@ export const TRAVEL_DATA = {
       coordinates: [43.2557, -79.8711],
       flag: '🇨🇦',
       visitDate: 'University',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['McMaster', 'Waterfall Trails', 'Whidden', 'Kingsmount', 'Cline'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hamilton1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hamilton2.jpeg',
@@ -930,7 +930,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hamilton9.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/hamilton10.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Lived here four years for uni. One of the most special and underrated cities.",
     },
     {
       id: 'buffalo',
@@ -939,11 +939,11 @@ export const TRAVEL_DATA = {
       coordinates: [42.6810, -78.6920],
       flag: '🇺🇸',
       visitDate: 'A few times',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Niagara Falls', 'Sabres', 'Tailgate', 'Mall'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/buffalo1.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Usually here for Niagara, a game, or a tailgate. Good wings too.",
     },
     {
       id: 'san-antonio',
@@ -952,13 +952,13 @@ export const TRAVEL_DATA = {
       coordinates: [29.4252, -98.4946],
       flag: '🇺🇸',
       visitDate: 'November 2023',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['River Walk', 'The Alamo', 'Tex-Mex'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanantonio1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanantonio2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanantonio3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "River Walk is a good time. The Alamo is smaller than expected but worth seeing.",
     },
     {
       id: 'san-jose',
@@ -967,13 +967,13 @@ export const TRAVEL_DATA = {
       coordinates: [37.3387, -121.8853],
       flag: '🇺🇸',
       visitDate: 'November 2023',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Nvidia GTC', 'Tech Scene'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Was here for Nvidia GTC. Cool to see the tech hub up close.",
     },
     {
       id: 'detroit',
@@ -982,13 +982,13 @@ export const TRAVEL_DATA = {
       coordinates: [42.3297, -83.0425],
       flag: '🇺🇸',
       visitDate: 'Work',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Motown History', 'General City'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Here for work. Interesting city with a lot of history.",
     },
     {
       id: 'portland-maine',
@@ -997,13 +997,13 @@ export const TRAVEL_DATA = {
       coordinates: [43.6708, -70.2844],
       flag: '🇺🇸',
       visitDate: 'December 2008',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Old Port', 'Lobster', 'Waterfront'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Visited when I was a kid so don't really remember much.",
     },
     {
       id: 'tampa',
@@ -1012,13 +1012,13 @@ export const TRAVEL_DATA = {
       coordinates: [27.9517, -82.4588],
       flag: '🇺🇸',
       visitDate: 'February 2016',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Busch Gardens', 'Ybor City', 'Waterfront'],
       photos: [
         '/travel/osaka-1.jpg',
         '/travel/kyoto-1.jpg',
         '/travel/kobe-1.jpg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Was here as a kid. Remember Busch Gardens more than anything.",
     },
   ] as Location[],
 
