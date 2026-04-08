@@ -658,13 +658,13 @@ export const TRAVEL_DATA = {
       coordinates: [15.3889, 73.8166],
       flag: '🇮🇳',
       visitDate: 'A few times',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Beaches', 'Panjim', 'Bom Jesus'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/goa1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/goa2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/goa3.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Mostly beaches and relaxing. Panjim is a nice little city and Bom Jesus is worth a visit.",
     },
     {
       id: 'udupi',
@@ -673,7 +673,7 @@ export const TRAVEL_DATA = {
       coordinates: [13.3439, 74.7475],
       flag: '🇮🇳',
       visitDate: 'A few times',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Beaches', 'Malpe Beach', 'Family'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/udupi1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/udupi2.jpeg',
@@ -681,7 +681,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/udupi4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/udupi5.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Lots of family here so it's always a good time. Malpe beach is great.",
     },
     {
       id: 'amsterdam',
@@ -690,12 +690,12 @@ export const TRAVEL_DATA = {
       coordinates: [52.3676, 4.9041],
       flag: '🇳🇱',
       visitDate: 'June 2007 | March 2026',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Canals', 'City Centre', 'Cycling'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/amsterdam1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/amsterdam2.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Both times were quick layovers but always end up enjoying it. Easy city to walk around.",
     },
     {
       id: 'rome',
@@ -704,7 +704,7 @@ export const TRAVEL_DATA = {
       coordinates: [41.8967, 12.4822],
       flag: '🇮🇹',
       visitDate: 'August 2019',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Colosseum', 'Vatican', 'Trevi Fountain', 'Pantheon'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/rome1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/rome2.jpeg',
@@ -716,7 +716,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/rome8.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/rome9.jpeg',
       ],
-      story: "Vatican. The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "History everywhere. The Vatican is massive and the Colosseum is bigger than you'd expect.",
     },
     {
       id: 'florence',
@@ -725,7 +725,7 @@ export const TRAVEL_DATA = {
       coordinates: [43.7700, 11.2577],
       flag: '🇮🇹',
       visitDate: 'August 2019',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Galileo Museum', 'Medici Palace', 'Duomo', 'Ponte Vecchio'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/florence1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/florence2.jpeg',
@@ -735,7 +735,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/florence6.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/florence7.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really liked the Galileo museum. The city itself is beautiful and easy to get around on foot.",
     },
     {
       id: 'amalfi-coast',
@@ -744,14 +744,14 @@ export const TRAVEL_DATA = {
       coordinates: [40.6333, 14.6029],
       flag: '🇮🇹',
       visitDate: 'August 2019',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Clifftop Views', 'Positano', 'Beach', 'Sorrento'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/amalfi1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/amalfi2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/amalfi3.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/amalfi4.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Stunning. Positano is as photogenic as advertised and had limoncello in Sorrento.",
     },
     {
       id: 'naples',
@@ -760,7 +760,7 @@ export const TRAVEL_DATA = {
       coordinates: [40.8518, 14.2681],
       flag: '🇮🇹',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Pompeii', 'Historic Centre', 'Castel Nuovo'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/napoli1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/napoli2.jpeg',
@@ -771,7 +771,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/napoli7.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/napoli8.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Gritty but interesting. Pompeii is worth the day trip.",
     },
     {
       id: 'dubrovnik',
@@ -780,7 +780,7 @@ export const TRAVEL_DATA = {
       coordinates: [42.6507, 18.0944],
       flag: '🇭🇷',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['City Walls', 'Old Town', 'Adriatic', 'Cliff Jump'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubrovnik1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubrovnik2.jpeg',
@@ -791,7 +791,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubrovnik7.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/dubrovnik8.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Looks like a movie set. Walked the walls and did a cliff jump. Great stop.",
     },
     {
       id: 'split',
@@ -800,7 +800,7 @@ export const TRAVEL_DATA = {
       coordinates: [44.5147, 16.4435],
       flag: '🇭🇷',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Diocletian\'s Palace', 'Old Town', 'Beaches', 'Boat Trip'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/split1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/split2.jpeg',
@@ -808,7 +808,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/split4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/split5.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "Really cool city. The palace being built into the old town is wild.",
     },
     {
       id: 'budapest',
@@ -817,7 +817,7 @@ export const TRAVEL_DATA = {
       coordinates: [44.4979, 19.0402],
       flag: '🇭🇺',
       visitDate: 'July 2024',
-      highlights: ['Brooklyn Music Scene', 'Central Park', 'Times Square', 'Pizza'],
+      highlights: ['Parliament', 'Ruin Bars', 'Danube', 'Fisherman\'s Bastion'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/budapest1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/budapest2.jpeg',
@@ -829,7 +829,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/budapest8.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/budapest9.jpeg',
       ],
-      story: "The energy is incomparable. Spent days wandering through different neighborhoods, each feeling like its own city. The music scene in Brooklyn is incredible.",
+      story: "One of the best cities in Europe. The ruin bars are great and the views from Fisherman's Bastion are worth the climb.",
     },
     {
       id: 'vienna',
