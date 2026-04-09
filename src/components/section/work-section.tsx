@@ -46,11 +46,11 @@ export default function WorkSection() {
                 <div className="flex-1 min-w-0 gap-0.5 flex flex-col">
                   <div className="font-semibold leading-none flex items-center gap-2">
                     {work.company}
-                    <a 
-                      href={work.href} 
-                      target="_blank" 
-                      rel="noopener noreferrer" 
-                      onClick={(e) => e.stopPropagation()} 
+                    <a
+                      href={work.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
                       className="text-muted-foreground hover:text-foreground transition-colors opacity-0 group-hover:opacity-100 group-data-[state=open]:-rotate-180"
                     >
                       <ArrowUpRight className="h-3.5 w-3.5" />
@@ -58,17 +58,17 @@ export default function WorkSection() {
                     <span className="relative inline-flex items-center w-3.5 h-3.5">
                       <ChevronRight
                         className={cn(
-                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-100 ease-out",
+                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300 ease-out",
                           "translate-x-0 opacity-0",
                           "group-hover:translate-x-1 group-hover:opacity-100",
-                          "group-data-[state=open]:opacity-0 group-data-[state=open]:translate-x-0"
+                          "group-data-[state=open]:opacity-0 group-data-[state=open]:translate-x-0",
                         )}
                       />
                       <ChevronDown
                         className={cn(
-                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-100",
+                          "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-200",
                           "opacity-0 rotate-0",
-                          "group-data-[state=open]:opacity-100 group-data-[state=open]:rotate-180"
+                          "group-data-[state=open]:opacity-100 group-data-[state=open]:rotate-180",
                         )}
                       />
                     </span>
@@ -93,4 +93,3 @@ export default function WorkSection() {
     </Accordion>
   );
 }
-

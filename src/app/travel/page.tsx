@@ -1,8 +1,13 @@
+import { GlobeTravel } from '@/components/globe-travel';
+import { TRAVEL_DATA } from '@/data/travel';
+
 export default function TravelPage() {
   return (
-    <main className="container mx-auto px-4 py-20">
-      <h1 className="text-4xl font-bold mb-8">Travel</h1>
-      <p className="text-muted-foreground">Coming soon...</p>
+    <main className="container mx-auto px-4">
+      <GlobeTravel 
+        locations={TRAVEL_DATA.locations} 
+        stats={TRAVEL_DATA.stats} 
+      />
     </main>
   );
 }
