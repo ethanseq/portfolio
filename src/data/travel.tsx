@@ -105,7 +105,7 @@ export const TRAVEL_DATA = {
       country: 'Canada',
       coordinates: [53.5462, -113.4937],
       flag: '🇨🇦',
-      visitDate: 'June 2024 | July 2025',
+      visitDate: 'A few times',
       highlights: ['West Edmonton Mall', 'Fort Edmonton Park', 'Banff'],
       photos: [
         '/travel/placeholder.svg',
@@ -169,7 +169,7 @@ export const TRAVEL_DATA = {
       country: 'Mexico',
       coordinates: [28.6434, -106.0588],
       flag: '🇲🇽',
-      visitDate: 'June 2024 | July 2025',
+      visitDate: 'June 2009',
       highlights: ['Historic Centre', 'Desert Landscape'],
       photos: [
         '/travel/placeholder.svg',
@@ -198,7 +198,7 @@ export const TRAVEL_DATA = {
       country: 'Canada',
       coordinates: [45.4201, -75.7003],
       flag: '🇨🇦',
-      visitDate: 'Quite a few times',
+      visitDate: 'A few times',
       highlights: ['Parliament Hill', 'Rideau Canal', 'Museums', 'Gatineau'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/ottawa1.jpeg',
@@ -226,7 +226,7 @@ export const TRAVEL_DATA = {
       country: 'Canada',
       coordinates: [46.8138, -71.2080],
       flag: '🇨🇦',
-      visitDate: 'A few times',
+      visitDate: 'July 2018',
       highlights: ['Old Quebec', 'Chateau Frontenac', 'Plains of Abraham', 'French Culture'],
       photos: [
         '/travel/placeholder.svg',
@@ -287,7 +287,7 @@ export const TRAVEL_DATA = {
       country: 'USA',
       coordinates: [40.7128, -74.0060],
       flag: '🇺🇸',
-      visitDate: 'June 2007',
+      visitDate: 'June 2007 | ?',
       highlights: ['Central Park', 'Lower East Side', 'Times Square'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/newyork1.jpeg',
@@ -656,7 +656,7 @@ export const TRAVEL_DATA = {
       country: 'India',
       coordinates: [15.3889, 73.8166],
       flag: '🇮🇳',
-      visitDate: 'A few times',
+      visitDate: 'February 2026',
       highlights: ['Beaches', 'Panjim', 'Bom Jesus'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/goa1.jpeg',
@@ -758,7 +758,7 @@ export const TRAVEL_DATA = {
       country: 'Italy',
       coordinates: [40.8518, 14.2681],
       flag: '🇮🇹',
-      visitDate: 'July 2024',
+      visitDate: 'August 2019 | July 2024',
       highlights: ['Pompeii', 'Historic Centre', 'Castel Nuovo'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/napoli1.jpeg',
@@ -965,7 +965,7 @@ export const TRAVEL_DATA = {
       country: 'USA',
       coordinates: [37.3387, -121.8853],
       flag: '🇺🇸',
-      visitDate: 'November 2023',
+      visitDate: 'March 2025',
       highlights: ['Nvidia GTC', 'Tech Scene'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanjose1.jpeg',
@@ -978,7 +978,7 @@ export const TRAVEL_DATA = {
       country: 'USA',
       coordinates: [42.3297, -83.0425],
       flag: '🇺🇸',
-      visitDate: 'Work',
+      visitDate: 'A few times',
       highlights: ['Motown History', 'General City'],
       photos: [
         '/travel/placeholder.svg',
@@ -993,7 +993,7 @@ export const TRAVEL_DATA = {
       country: 'USA',
       coordinates: [43.6708, -70.2844],
       flag: '🇺🇸',
-      visitDate: 'December 2008',
+      visitDate: 'December 2005',
       highlights: ['Old Port', 'Lobster', 'Waterfront'],
       photos: [
         '/travel/placeholder.svg',
