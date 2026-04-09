@@ -142,7 +142,6 @@ export const TRAVEL_DATA = {
       highlights: ['Golden Gate Bridge', 'Mission District', 'Fisherman\'s Wharf'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco1.jpeg',
-        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco2.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco3.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanfrancisco5.jpeg',
@@ -969,9 +968,7 @@ export const TRAVEL_DATA = {
       visitDate: 'November 2023',
       highlights: ['Nvidia GTC', 'Tech Scene'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/sanjose1.jpeg',
       ],
       story: "Was here for Nvidia GTC. Cool to see the tech hub up close.",
     },
