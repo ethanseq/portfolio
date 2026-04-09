@@ -108,9 +108,9 @@ export const TRAVEL_DATA = {
       visitDate: 'June 2024 | July 2025',
       highlights: ['West Edmonton Mall', 'Fort Edmonton Park', 'Banff'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Visiting family. West Edmonton Mall is genuinely massive, Fort Edmonton Park is a fun afternoon, and Banff is close enough to make a day of it.",
     },
@@ -157,9 +157,9 @@ export const TRAVEL_DATA = {
       visitDate: 'April 2017 | December 2024',
       highlights: ['Deep Dish Pizza', 'The Bean', 'Navy Pier', 'Architecture'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Great music trip and the waterfront is one of the best I've seen in any city. Chicago just has a really good energy.",
     },
@@ -172,9 +172,9 @@ export const TRAVEL_DATA = {
       visitDate: 'June 2024 | July 2025',
       highlights: ['Historic Centre', 'Desert Landscape'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Went for a wedding. Good time.",
     },
@@ -214,9 +214,9 @@ export const TRAVEL_DATA = {
       visitDate: 'Spawn point',
       highlights: ['Old Montreal', 'Downtown', 'Mount Royal', 'Festival Season'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "The most special city to me. It has a really unique energy that's hard to find anywhere else in North America.",
     },
@@ -229,9 +229,9 @@ export const TRAVEL_DATA = {
       visitDate: 'A few times',
       highlights: ['Old Quebec', 'Chateau Frontenac', 'Plains of Abraham', 'French Culture'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Walking around Old Quebec feels like being in Europe. One of the most charming places in the country.",
     },
@@ -258,9 +258,9 @@ export const TRAVEL_DATA = {
       visitDate: 'July 2018',
       highlights: ['Red Sand Beaches', 'Anne of Green Gables', 'Lobster', 'Cycling Trails'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Really beautiful island. The red sand beaches are unlike anything else and the seafood is great. Worth the trip.",
     },
@@ -305,9 +305,9 @@ export const TRAVEL_DATA = {
       visitDate: 'A few times',
       highlights: ['Harvard', 'Downtown', 'Suburbs'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "A few visits over the years. Compact and walkable with a great downtown and nice suburbs around it.",
     },
@@ -320,9 +320,9 @@ export const TRAVEL_DATA = {
       visitDate: 'February 2009',
       highlights: ['Disney World', 'Theme Parks'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Went as a kid.",
     },
@@ -981,9 +981,9 @@ export const TRAVEL_DATA = {
       visitDate: 'Work',
       highlights: ['Motown History', 'General City'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Here for work. Interesting city with a lot of history.",
     },
@@ -996,9 +996,9 @@ export const TRAVEL_DATA = {
       visitDate: 'December 2008',
       highlights: ['Old Port', 'Lobster', 'Waterfront'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Visited when I was a kid so don't really remember much.",
     },
@@ -1011,9 +1011,9 @@ export const TRAVEL_DATA = {
       visitDate: 'February 2016',
       highlights: ['Busch Gardens', 'Ybor City', 'Waterfront'],
       photos: [
-        '/travel/osaka-1.jpg',
-        '/travel/kyoto-1.jpg',
-        '/travel/kobe-1.jpg',
+        '/travel/placeholder.svg',
+        
+        
       ],
       story: "Was here as a kid. Don't remember doing much.",
     },
