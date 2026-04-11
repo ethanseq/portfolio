@@ -8,13 +8,12 @@ export const metadata: Metadata = {
 
 const BLUR_FADE_DELAY = 0.04;
 
-// Replace these Spotify track IDs with real ones (format: open.spotify.com/track/TRACK_ID)
 const CURRENTLY_LISTENING = [
-  { id: "4cOdK2wGLETKBW3PvgPWqT", title: "Song Title 1", artist: "Artist 1" },
-  { id: "4cOdK2wGLETKBW3PvgPWqT", title: "Song Title 2", artist: "Artist 2" },
-  { id: "4cOdK2wGLETKBW3PvgPWqT", title: "Song Title 3", artist: "Artist 3" },
-  { id: "4cOdK2wGLETKBW3PvgPWqT", title: "Song Title 4", artist: "Artist 4" },
-  { id: "4cOdK2wGLETKBW3PvgPWqT", title: "Song Title 5", artist: "Artist 5" },
+  "3AuEbScnrjiJne0Yxf8U1J",
+  "2tGruyXi5FsyP9c5yGh9gz",
+  "4C5GsegFD0j5ujSr1y93Oj",
+  "2f9mmR37OEceYERbXml0Nj",
+  "6YVGKyOJbmXMkyOzw0uhIm",
 ];
 
 const INFLUENCES = [
@@ -69,13 +68,14 @@ export default function MusicPage() {
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 2}>
             <div className="grid grid-cols-1 gap-3">
-              {CURRENTLY_LISTENING.map((track, i) => (
+              {CURRENTLY_LISTENING.map((id, i) => (
                 <iframe
                   key={i}
-                  src={`https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0`}
+                  src={`https://open.spotify.com/embed/track/${id}?utm_source=generator`}
                   width="100%"
                   height="80"
                   frameBorder="0"
+                  allowFullScreen
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
                   className="rounded-xl"
