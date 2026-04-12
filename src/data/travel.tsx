@@ -29,7 +29,7 @@ export const TRAVEL_DATA = {
       coordinates: [43.6532, -79.3832],
       flag: '🇨🇦',
       visitDate: 'Home',
-      highlights: ['CN Tower', 'Kensington Market', 'Toronto Islands', 'Music Scene'],
+      highlights: ['The Annex', 'Queen Street West', 'Financial District', 'Exhibition Place', 'Entertainment District'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/toronto1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/toronto2.jpeg',
@@ -41,7 +41,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/toronto8.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/toronto9.jpeg',
       ],
-      story: "Home sweet home. The diversity, the neighborhoods, the lake, the music venues - everything I need is here. Each season brings a different vibe to the city.",
+      story: "Home. Has something to offer everyone and the summer is absolutely elite. Great diversity and always something going on.",
     },
     {
       id: 'tokyo',
@@ -50,7 +50,7 @@ export const TRAVEL_DATA = {
       coordinates: [35.6762, 139.6503],
       flag: '🇯🇵',
       visitDate: 'June 2024',
-      highlights: ['Cherry Blossoms', 'Shibuya Crossing', 'TeamLab Borderless', 'Ramen'],
+      highlights: ['Shibuya', 'Shinjuku', 'Asakusa', 'Ginza', 'Disney Sea'],
       photos: [
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/tokyo1.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/tokyo2.jpeg',
@@ -58,7 +58,7 @@ export const TRAVEL_DATA = {
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/tokyo4.jpeg',
         'https://pub-204b845ee7524587ab71d6c7b799fc4c.r2.dev/Portfolio/tokyo6.jpeg',
       ],
-      story: "First time in Japan during cherry blossom season. The blend of ultra-modern technology and ancient tradition was mind-blowing. Got lost in the best way possible.",
+      story: "An insane city. The scale of it is hard to comprehend and every neighbourhood feels completely different.",
     },
     {
       id: 'kansai',
