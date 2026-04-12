@@ -2,6 +2,7 @@
 
 import React, { useRef, useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import Image from 'next/image';
 import { useTheme } from 'next-themes';
 import { MapPin, Calendar, Camera } from 'lucide-react';
 import type { Location, TravelStats } from '@/data/travel';
@@ -31,6 +32,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [globeReady, setGlobeReady] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   // Determine current theme
   const currentTheme = theme === 'system' ? systemTheme : theme;
@@ -56,12 +58,11 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
   }, [globeReady]);
   
   const [dimensions, setDimensions] = useState({ width: 800, height: 800 });
-  
-  // Add this useEffect to handle responsive sizing
+
   useEffect(() => {
     const updateDimensions = () => {
       const screenWidth = window.innerWidth;
-      
+      setIsMobile(screenWidth < 768);
       if (screenWidth < 480) {
         setDimensions({ width: 400, height: 400 });
       } else if (screenWidth < 768) {
@@ -72,7 +73,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
         setDimensions({ width: 1400, height: 1400 });
       }
     };
-  
+
     updateDimensions();
     window.addEventListener('resize', updateDimensions);
     return () => window.removeEventListener('resize', updateDimensions);
@@ -82,7 +83,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
   const markerData = locations.map((loc) => ({
     lat: loc.coordinates[0],
     lng: loc.coordinates[1],
-    size: 0.8,
+    size: isMobile ? 1.5 : 0.8,
     color: '#f59e0b',
     label: loc.name,
     location: loc,
@@ -175,7 +176,7 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
               labelLng={(d: any) => d.lng}
               labelText={(d: any) => ''}
               labelSize={(d: any) => d.size}
-              labelDotRadius={(d: any) => 0.2}
+              labelDotRadius={(d: any) => isMobile ? 0.6 : 0.2}
               labelColor={(d: any) => d.color}
               labelResolution={2}
               onLabelClick={handleMarkerClick}
@@ -201,6 +202,25 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
           <div className="mt-6 flex flex-wrap gap-3 justify-center">
           </div>
         </div>
+
+        {/* Mobile location list */}
+        {isMobile && (
+          <div className="mt-4">
+            <p className="text-sm text-muted-foreground text-center mb-4">Or browse locations below</p>
+            <div className="grid grid-cols-2 gap-2">
+              {locations.map((loc) => (
+                <button
+                  key={loc.id}
+                  onClick={() => { setSelectedLocation(loc); setDialogOpen(true); }}
+                  className="flex items-center gap-2 px-3 py-2 rounded-lg border bg-card text-left hover:bg-accent transition-colors text-sm"
+                >
+                  <span>{loc.flag}</span>
+                  <span className="truncate font-medium">{loc.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Location Dialog */}
         {dialogOpen && selectedLocation && (
@@ -268,14 +288,16 @@ export function GlobeTravel({ locations, stats }: GlobeTravelProps) {
                     </h4>
                     <div className="grid grid-cols-2 gap-2">
                       {selectedLocation.photos.map((photo, idx) => (
-                        <div 
+                        <div
                           key={idx}
                           className="relative aspect-square rounded-lg overflow-hidden bg-muted"
                         >
-                          <img
+                          <Image
                             src={photo}
                             alt={`${selectedLocation.name} - ${idx + 1}`}
-                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                            fill
+                            className="object-cover hover:scale-105 transition-transform duration-300"
+                            sizes="(max-width: 768px) 50vw, 300px"
                           />
                         </div>
                       ))}
