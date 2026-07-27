@@ -85,25 +85,25 @@ export const DATA = {
       href: "https://www.martinrea.com",
       badges: [],
       location: "Vaughan, ON",
-      title: "Engineering Supervisor",
+      title: "Software Engineering Lead",
       logoUrl: "/atom2.svg",
       start: "Sep 2025",
       end: "Present",
       description:
-        "Leading a team to develop and ship a distributed resistance spot welding optimization system. Created full observability infrastructure using OpenTelemetry and LGTM stack. Currently driving product management and business strategy, with significant North American plant-wide deployment planned for 2026.",
+        "Leading a team to develop and ship a distributed resistance spot welding optimization system. Created full observability infrastructure using OpenTelemetry and LGTM stack. Currently driving product management and business strategy, with significant North American plant-wide deployment in 2026.",
     },
     {
-      company: "Airtime Platform",
+      company: "Asobi",
       badges: [],
       href: "https://www.airtimevolleyball.com",
       location: "Remote",
       title: "Founding Engineer",
-      logoUrl: "/airtime.png",
+      logoUrl: "/asobi.svg",
       start: "May 2025",
       end: "Present",
       description: (
         <>
-          Working with <a href="https://joefurf.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Joe Furfaro</a> and <a href="https://www.linkedin.com/in/maurice-el-helou-b4811519a/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Maurice el Helou</a> to build a high-performance training platform. Starting with <a href="https://www.airtimevolleyball.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Airtime Volleyball</a> for Q2 2026! Built with Python/Django backend, React/Next.js frontend, and deployed with AWS.
+          Working with <a href="https://joefurf.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Joe Furfaro</a> and <a href="https://www.linkedin.com/in/maurice-el-helou-b4811519a/" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Maurice el Helou</a> to build a high-performance training platform. Launched with <a href="https://www.airtimevolleyball.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-600">Airtime Volleyball</a> in Q1 2026! Built with Python/Django backend, React/Next.js frontend, and deployed with AWS.
         </>
       ),
     },
@@ -112,24 +112,12 @@ export const DATA = {
       href: "https://www.martinrea.com",
       badges: [],
       location: "Vaughan, ON",
-      title: "Lead Engineer",
+      title: "Software Engineer & Technical Lead",
       logoUrl: "/atom2.svg",
-      start: "Sep 2024",
+      start: "Apr 2024",
       end: "Aug 2025",
       description:
         "Developed a high-performance event-driven C++ application for processing real-time weld data and running optimization jobs. Architected a distributed system with an intelligent job broker that lets one edge device service multiple manufacturing lines instead of needing separate devices for each line, while collaborating with weld engineers on optimization algorithms and managing the full-stack monitoring app.",
-    },
-    {
-      company: "Martinrea",
-      href: "https://www.martinrea.com",
-      badges: [],
-      location: "Vaughan, ON / Remote",
-      title: "Software Engineer",
-      logoUrl: "/martinrea.svg",
-      start: "Apr 2023",
-      end: "Aug 2024",
-      description:
-        "Worked and provided mentorship on developing vision solutions for manufacturing. Started a Python library that abstracts complex computer vision workflows and speeds up development time. Created a configurable data augmentation framework for training ML models and implemented quality inspection systems using both ML and classical CV techniques in Python and C++.",
     },
     {
       company: "ARCO Lab",
@@ -162,11 +150,23 @@ export const DATA = {
       company: "Martinrea",
       href: "https://www.martinrea.com",
       badges: [],
+      location: "Vaughan, ON / Remote",
+      title: "Software Engineering Intern",
+      logoUrl: "/martinrea.svg",
+      start: "May 2023",
+      end: "Aug 2023",
+      description:
+        "Worked and provided mentorship on developing vision solutions for manufacturing. Started a Python library that abstracts complex computer vision workflows and speeds up development time. Created a configurable data augmentation framework for training ML models and implemented quality inspection systems using both ML and classical CV techniques in Python and C++.",
+    },
+    {
+      company: "Martinrea",
+      href: "https://www.martinrea.com",
+      badges: [],
       location: "Vaughan, ON",
       title: "Software Engineering Intern",
       logoUrl: "/martinrea.svg",
       start: "May 2022",
-      end: "August 2022",
+      end: "Aug 2022",
       description:
         "Developed custom computer vision solutions for various manufacturing business units using Python and OpenCV. Presented to board of directors, corporate partners, and investors. Rewrote AGV image processing algorithms in C++ and CUDA for 25x performance boost through parallel computing, plus improved SLAM stability and added save/load functionality.",
     },
@@ -178,7 +178,7 @@ export const DATA = {
       title: "Software Engineering Intern",
       logoUrl: "/martinrea.svg",
       start: "May 2021",
-      end: "August 2021",
+      end: "Aug 2021",
       description:
         "Worked on an AGV for factory inventory management that was decently cheaper than commercial options while improving production line safety and efficiency. Optimized computer vision algorithms using Python, C++, Java, and OpenCV, achieving 5x faster object detection and avoidance, plus implemented motion profiling, camera calibration, and ArUco marker positioning.",
     },
